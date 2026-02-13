@@ -1,0 +1,44 @@
+name: aoctomeater
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  geolocator: ^10.1.0
+  geocoding: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  intl: ^0.20.2
+  weather_icons: ^3.0.0
+  lottie: ^2.7.0
+  shared_preferences: ^2.3.2
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/weather/sunny.png
+    - assets/weather/smoke.png
+    - assets/weather/cloudy.png
